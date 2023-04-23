@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  text-align: center;
+}
+.home ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.home ul li {
+  padding: 0 2rem;
+  list-style: none;
+  cursor: pointer;
+  margin: 1rem;
+}
+.home ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.home ul li a:hover {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
